@@ -1,6 +1,6 @@
 body{
     font-family: "Karla";
-    padding: 35px 50px;
+    border: 2px solid black;
 }
 
 .corinthia-regular{
@@ -34,6 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 35px 50px;
 }
 
 .taskbar h1 {
@@ -55,22 +56,25 @@ body{
 }
 
 .project-bar{
+    margin-left: 15px;
     width: 20%;
-    border-right: 2px solid black
+    border: 2px solid black
 }
 
 .work-experience{
     width: 35%;
-    border-right: 2px solid black;
+    border: 2px solid black;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 .education{
+    border: 2px solid black;
     width: 35%;
     margin-left: 25px;
 }
 
 .recent-project{
-    border-top: 2px solid black
+    border-top: 2px solid black;
+    margin-left: 25
 }
