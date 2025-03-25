@@ -50,8 +50,16 @@ body{
     color: grey
 }
 
+.home-container{
+    display: flex;
+}
+
 .project-bar{
     width: 20%;
+    border-right: 2px solid black
+}
+
+.work-experience{
     border-right: 2px solid black
 }
 
