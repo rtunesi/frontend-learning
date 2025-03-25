@@ -1,5 +1,33 @@
 body{
-    padding: 10px 20px;
+    font-family: "Karla";
+    padding: 35px 50px;
+}
+
+.corinthia-regular{
+    font-family: "Corinthia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karla{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.home-text{
+    text-align: center;
+}
+
+.home-text h2{
+    font-family: "Corinthia", cursive;
+    font-size: 600%;
+}
+
+.home-text p{
+    font-size: 200%;
+    color: grey
 }
 
 .taskbar {
@@ -19,4 +47,5 @@ body{
     gap: 20px; /* Space between list items */
     margin: 0;
     padding: 0;
+    color: grey
 }
