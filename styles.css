@@ -1,0 +1,25 @@
+.custom-taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid grey;
+}
+
+.custom-taskbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.custom-taskbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between list items */
+    margin: 0;
+    padding: 0;
+}
+
+.custom-taskbar ul li {
+    cursor: pointer;
+    font-size: 18px;
+}
