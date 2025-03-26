@@ -53,23 +53,23 @@ body{
 
 .home-container{
     display: flex;
+    border-top: 2px solid black;
 }
 
 .project-bar{
     margin-left: 15px;
     width: 20%;
-    border: 2px solid black
+    border-right: 2px solid black;
 }
 
 .work-experience{
     width: 35%;
-    border: 2px solid black;
     margin-left: 25px;
     margin-right: 25px;
+    border-right: 2px solid black;
 }
 
 .education{
-    border: 2px solid black;
     width: 35%;
     margin-left: 25px;
 }
