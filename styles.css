@@ -76,10 +76,11 @@ body{
 
 .recent-project{
     border-top: 2px solid black;
-    margin-left: 25
+    margin-left: 25;
+    text-align: center;
 }
 
-.project-image{
+.recent-project img{
     display: flex;
     align-items: center;
     justify-content: center;
