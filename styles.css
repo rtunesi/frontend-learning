@@ -11,18 +11,25 @@
 }
 
 body{
-    padding: 10px 20px;
+    background-color: #F6F1DE;
+}
+
+.top-page{
+    background-image: linear-gradient(180deg, #8AB2A6, #ACD3A8);
+    border-bottom-right-radius: 245px;
+    border-bottom-left-radius: 245px;
+    height: 320px;
 }
 
 .custom-taskbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid grey;
+    margin: 15px;
+    border-bottom: 2px solid white;
 }
 
 .custom-taskbar h1 {
-    margin: 0;
     color: #3E3F5B;
     font-size: 24px;
 }
@@ -31,8 +38,6 @@ body{
     list-style: none;
     display: flex;
     gap: 20px; /* Space between list items */
-    margin: 0;
-    padding: 0;
 }
 
 .custom-taskbar ul li {
@@ -42,13 +47,9 @@ body{
 
 .home-header {
     text-align: center;
-    background-image: linear-gradient(180deg, #8AB2A6, #ACD3A8);
-    border-bottom-right-radius: 475px;
-    border-bottom-left-radius: 475px;
 }
 
 .home-header h2{
-    
     font-family: "Bagel Fat One";
     font-size: 400%;
     color: #3E3F5B;
@@ -57,5 +58,9 @@ body{
 .home-header h3{
     font-family: "Passions Conflict";
     font-size: 250%;
-    color: #F6F1DE;
+    color: white;
+}
+
+.main-body{
+    text-align: center;
 }
