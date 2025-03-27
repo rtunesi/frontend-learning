@@ -10,11 +10,14 @@
     font-style: normal;
 }
 
+body{
+    padding: 10px 20px;
+}
+
 .custom-taskbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     border-bottom: 2px solid grey;
 }
 
@@ -38,6 +41,9 @@
 
 .home-header {
     text-align: center;
+    background-image: linear-gradient(180deg, #8AB2A6, #ACD3A8);
+    border-bottom-right-radius: 475px;
+    border-bottom-left-radius: 475px;
 }
 
 .home-header h2{
