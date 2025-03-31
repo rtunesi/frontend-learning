@@ -43,8 +43,22 @@ body {
     justify-content: center;
 }
 
-
 .website-content{
     width: 75%;
     margin: auto;
+}
+
+.website-body{
+    width: 50%;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.heading h4{
+    font-weight: 150;
+    color: darkgrey;
+}
+
+.my-skills {
+    margin-top: 50px;
 }
