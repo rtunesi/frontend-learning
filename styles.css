@@ -9,7 +9,7 @@ body {
     font-size: 14px;
     font-family: "Roboto Condensed";
     color: white;
-    background-color: black;
+    background-color: rgb(18, 18, 18);
 }
 
 .taskbar {
@@ -70,4 +70,10 @@ body {
 
 .project-preview {
     margin-top: 50px;
+}
+
+ul {
+    display: block;
+    border-left: 2px solid white;
+    padding-left: 8.8px;
 }
