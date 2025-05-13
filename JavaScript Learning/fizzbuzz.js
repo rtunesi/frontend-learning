@@ -21,3 +21,10 @@ function fizzBuzz(){
     count++;
     console.log(output);
 }
+
+var i = 0;
+
+while (i < 100){
+    fizzBuzz()
+    i++;
+}
