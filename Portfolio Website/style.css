@@ -1,13 +1,22 @@
+.schibsted-grotesk {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
 body{
     background-color: black;
     color: white;
+    font-family: "Schibsted Grotesk";
 }
 
 .navigation-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 20px 30px;
+    border-bottom: 2px solid grey;
 }
 
 .navigation-bar h2{
@@ -18,6 +27,12 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 23px;
+    gap: 30px;
     padding-right: 50px;
+}
+
+.website-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
