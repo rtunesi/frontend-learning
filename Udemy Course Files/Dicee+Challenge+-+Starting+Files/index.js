@@ -25,6 +25,7 @@ else if (randomNumber1 == 6){
     
 }
 
+
 if (randomNumber2 === 1){
 
 }
